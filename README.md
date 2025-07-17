@@ -22,7 +22,6 @@ This site showcases my work, skills, and journey as a **Frontend Developer**. It
 ## 📸 Demo
 
 👉 [Live Site](https://your-portfolio-url.com)  
-👉 [GitHub Repo](https://github.com/Rishi-Kumar27/Personal-Portfolio-Website.git)
 
 ## 🧾 Folder Structure
 
