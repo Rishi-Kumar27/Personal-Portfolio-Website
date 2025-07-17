@@ -16,13 +16,13 @@ This site showcases my work, skills, and journey as a **Frontend Developer**. It
 
 - HTML5   
 - Tailwind CSS
-- - JavaScript   
+- JavaScript   
 
 
 ## 📸 Demo
 
 👉 [Live Site](https://your-portfolio-url.com)  
-👉 [GitHub Repo](https://github.com/your-username/portfolio)
+👉 [GitHub Repo](https://github.com/Rishi-Kumar27/Personal-Portfolio-Website.git)
 
 ## 🧾 Folder Structure
 
