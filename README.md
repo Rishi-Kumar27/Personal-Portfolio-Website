@@ -23,5 +23,4 @@ This site showcases my work, skills, and journey as a **Frontend Developer**. It
 
 👉 [Live Site](https://your-portfolio-url.com)  
 
-## 🧾 Folder Structure
 
