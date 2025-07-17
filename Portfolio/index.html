@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rishi Kumar</title>
+    <link rel="stylesheet" href="./output.css" />
+    <link rel="shortcut icon" href="./images/profile.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body class="bg-[#0f172a] text-white font-sans">
+    <header
+      id="main-navbar"
+      class="bg-[#0f172a] text-white max-w-6xl mx-auto py-4 px-6 md:px-8 fixed top-0 right-0 left-0 z-50 shadow-lg navbar-on-load-animation"
+    >
+      <div class="container mx-auto flex justify-between items-center">
+        <a
+          href="#home"
+          class="text-2xl md:text-3xl font-bold text-white tracking-wide"
+          >Portfolio</a
+        >
+
+        <nav class="hidden md:flex space-x-8">
+          <a
+            href="#home"
+            class="nav-link text-white text-lg font-medium hover:text-blue-400 transition duration-300"
+            >Home</a
+          >
+          <a
+            href="#about"
+            class="nav-link text-white text-lg font-medium hover:text-blue-400 transition duration-300"
+            >About Me</a
+          >
+          <a
+            href="#skills"
+            class="nav-link text-white text-lg font-medium hover:text-blue-400 transition duration-300"
+            >Skills</a
+          >
+          <a
+            href="#services"
+            class="nav-link text-white text-lg font-medium hover:text-blue-400 transition duration-300"
+            >Services</a
+          >
+          <a
+            href="#projects"
+            class="nav-link text-white text-lg font-medium hover:text-blue-400 transition duration-300"
+            >Projects</a
+          >
+          <a
+            href="#contact"
+            class="nav-link text-white text-lg font-medium hover:text-blue-400 transition duration-300"
+            >Contact</a
+          >
+        </nav>
+
+        <button
+          id="mobile-menu-button"
+          class="md:hidden text-white focus:outline-none"
+        >
+          <svg
+            class="w-8 h-8"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16m-4 6h4"
+            ></path>
+          </svg>
+        </button>
+      </div>
+
+      <nav
+        id="mobile-menu"
+        class="md:hidden hidden flex-col items-center mt-4 space-y-3 bg-[#0f172a] absolute top-full left-0 right-0 py-4 shadow-lg"
+      >
+        <a
+          href="#home"
+          class="block text-white text-lg font-medium py-2 w-full text-center hover:bg-gray-700 rounded-md transition duration-300"
+          >Home</a
+        >
+        <a
+          href="#about"
+          class="block text-white text-lg font-medium py-2 w-full text-center hover:bg-gray-700 rounded-md transition duration-300"
+          >About Me</a
+        >
+        <a
+          href="#skills"
+          class="block text-white text-lg font-medium py-2 w-full text-center hover:bg-gray-700 rounded-md transition duration-300"
+          >Skills</a
+        >
+        <a
+          href="#services"
+          class="block text-white text-lg font-medium py-2 w-full text-center hover:bg-gray-700 rounded-md transition duration-300"
+          >Services</a
+        >
+        <a
+          href="#projects"
+          class="block text-white text-lg font-medium py-2 w-full text-center hover:bg-gray-700 rounded-md transition duration-300"
+          >Projects</a
+        >
+        <a
+          href="#contact"
+          class="block text-white text-lg font-medium py-2 w-full text-center hover:bg-gray-700 rounded-md transition duration-300"
+          >Contact</a
+        >
+      </nav>
+    </header>
+
+    <section id="home" class="max-w-6xl mt-24 mx-auto overflow-hidden px-6">
+      <div
+        class="flex flex-col-reverse items-center md:flex-row justify-between py-12 gap-10"
+      >
+        <div
+          class="max-w-xl flex flex-col justify-center items-center md:items-start text-center md:text-left animate-from-left"
+        >
+          <h2 class="text-3xl md:text-4xl font-semibold">Hello, I am</h2>
+          <h1 class="text-4xl md:text-6xl font-bold text-white mt-2">
+            Rishi Kumar
+          </h1>
+          <h2 class="text-3xl md:text-5xl mt-4 font-semibold">
+            I'm a <span id="animated-text" class="text-blue-400"></span
+            ><span class="cursor">|</span>
+          </h2>
+          <p class="mt-6 text-gray-300 text-lg md:text-base leading-relaxed">
+            "Turning ideas into seamless digital experiences—Where creativity
+            meets functionality in every line of code!"
+          </p>
+
+          <div class="icons flex space-x-4 mt-8">
+            <a
+              href="https://www.linkedin.com/in/rishi-kumar-0a4a69288/"
+              target="_blank"
+              aria-label="LinkedIn Profile"
+            >
+              <i
+                class="fa-brands fa-linkedin-in border-cyan-400 border-2 rounded-full p-3 text-2xl text-cyan-400 hover:bg-cyan-400 hover:text-black transition duration-300 ease-in-out"
+              ></i>
+            </a>
+            <a
+              href="https://github.com/Rishi-Kumar27"
+              target="_blank"
+              aria-label="GitHub Profile"
+            >
+              <i
+                class="fa-brands fa-github border-cyan-400 border-2 rounded-full p-3 text-2xl text-cyan-400 hover:bg-cyan-400 hover:text-black transition duration-300 ease-in-out"
+              ></i>
+            </a>
+            <a href="mailto:your-email@example.com" aria-label="Send Email">
+              <i
+                class="fa-solid fa-envelope border-cyan-400 border-2 rounded-full p-3 text-2xl text-cyan-400 hover:bg-cyan-400 hover:text-black transition duration-300 ease-in-out"
+              ></i>
+            </a>
+          </div>
+
+          <div class="mt-5">
+            <a
+              href="./images/Rishi_Kumar_Frontend_Resume.pdf"
+              target="_blank"
+              class="bg-cyan-400 text-black font-semibold py-3 px-8 rounded-full hover:bg-cyan-500 inline-flex items-center transition duration-300 shadow-md"
+            >
+              <i class="fa-solid fa-download mr-3"></i>
+              Download Resume
+            </a>
+          </div>
+        </div>
+
+        <div class="flex justify-center md:ml-10 animate-from-right">
+          <div
+            class="rounded-full border-4 border-orange-700 overflow-hidden w-64 h-64 md:w-80 md:h-80 flex-shrink-0"
+          >
+            <img
+              src="./images/profile.png"
+              class="w-full h-full object-cover"
+              alt="Rishi Kumar's Profile"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="max-w-7xl mx-auto py-16 px-6">
+      <div class="flex flex-col items-center gap-10">
+        <h2 class="text-5xl font-bold animate-fade-in">
+          About <span class="text-blue-400">Me</span>
+        </h2>
+        <p
+          class="text-lg md:text-xl font-medium font-serif text-center leading-relaxed max-w-3xl animate-fade-in"
+        >
+          A dedicated **Front-End Developer** with a strong foundation in
+          **JavaScript** and **Tailwind CSS**, I have hands-on experience
+          building responsive and user-friendly web applications. I am
+          passionate about creating seamless user experiences and continuously
+          improving my technical skills. I am seeking an opportunity to leverage
+          my expertise in a challenging environment that encourages growth and
+          innovation.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" class="max-w-7xl mx-auto py-16 px-5 overflow-hidden">
+      <div class="flex flex-col justify-center items-center gap-10">
+        <h2 class="lg:text-5xl text-4xl font-bold animate-fade-in">
+          Technical <span class="text-blue-400">Skills</span>
+        </h2>
+        <div
+          class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-8 pb-8 animate-fade-in"
+        >
+          <div
+            class="w-36 h-48 flex flex-col justify-center items-center rounded-2xl shadow-[0px_0px_5px_1px_rgba(255,255,255,0.2)] hover:shadow-blue-400 transition duration-300 ease-in-out hover:-translate-y-2 hover:scale-105 cursor-pointer bg-gray-800"
+          >
+            <img
+              class="w-28 h-28 object-contain mb-2"
+              src="./images/HTML.png"
+              alt="HTML Logo"
+            />
+            <p class="text-xl font-bold text-white">HTML</p>
+          </div>
+          <div
+            class="w-36 h-48 flex flex-col justify-center items-center rounded-2xl shadow-[0px_0px_5px_1px_rgba(255,255,255,0.2)] hover:shadow-blue-400 transition duration-300 ease-in-out hover:-translate-y-2 hover:scale-105 cursor-pointer bg-gray-800"
+          >
+            <img
+              class="w-28 h-28 object-contain mb-2"
+              src="./images/CSS.png"
+              alt="CSS Logo"
+            />
+            <p class="text-xl font-bold text-white">CSS</p>
+          </div>
+          <div
+            class="w-36 h-48 flex flex-col justify-center items-center rounded-2xl shadow-[0px_0px_5px_1px_rgba(255,255,255,0.2)] hover:shadow-blue-400 transition duration-300 ease-in-out hover:-translate-y-2 hover:scale-105 cursor-pointer bg-gray-800"
+          >
+            <img
+              class="w-28 h-28 object-contain mb-2"
+              src="./images/JavaScript.png"
+              alt="JavaScript Logo"
+            />
+            <p class="text-xl font-bold text-white">JavaScript</p>
+          </div>
+          <div
+            class="w-36 h-48 flex flex-col justify-center items-center rounded-2xl shadow-[0px_0px_5px_1px_rgba(255,255,255,0.2)] hover:shadow-blue-400 transition duration-300 ease-in-out hover:-translate-y-2 hover:scale-105 cursor-pointer bg-gray-800"
+          >
+            <img
+              class="w-28 h-28 object-contain mb-2"
+              src="./images/TailwindCSS.png"
+              alt="Tailwind CSS Logo"
+            />
+            <p class="text-xl font-bold text-white">TailwindCSS</p>
+          </div>
+          <div
+            class="w-36 h-48 flex flex-col justify-center items-center rounded-2xl shadow-[0px_0px_5px_1px_rgba(255,255,255,0.2)] hover:shadow-blue-400 transition duration-300 ease-in-out hover:-translate-y-2 hover:scale-105 cursor-pointer bg-gray-800"
+          >
+            <img
+              class="w-28 h-28 object-contain mb-2"
+              src="./images/C.png"
+              alt="C Language Logo"
+            />
+            <p class="text-xl font-bold text-white">C</p>
+          </div>
+          <div
+            class="w-36 h-48 flex flex-col justify-center items-center rounded-2xl shadow-[0px_0px_5px_1px_rgba(255,255,255,0.2)] hover:shadow-blue-400 transition duration-300 ease-in-out hover:-translate-y-2 hover:scale-105 cursor-pointer bg-gray-800"
+          >
+            <img
+              class="w-28 h-28 object-contain mb-2"
+              src="./images/C++.png"
+              alt="C++ Language Logo"
+            />
+            <p class="text-xl font-bold text-white">C++</p>
+          </div>
+          <div
+            class="w-36 h-48 flex flex-col justify-center items-center rounded-2xl shadow-[0px_0px_5px_1px_rgba(255,255,255,0.2)] hover:shadow-blue-400 transition duration-300 ease-in-out hover:-translate-y-2 hover:scale-105 cursor-pointer bg-gray-800"
+          >
+            <img
+              class="w-28 h-28 object-contain mb-2"
+              src="./images/Git.png"
+              alt="Git Logo"
+            />
+            <p class="text-xl font-bold text-white">Git</p>
+          </div>
+          <div
+            class="w-36 h-48 flex flex-col justify-center items-center rounded-2xl shadow-[0px_0px_5px_1px_rgba(255,255,255,0.2)] hover:shadow-blue-400 transition duration-300 ease-in-out hover:-translate-y-2 hover:scale-105 cursor-pointer bg-gray-800"
+          >
+            <img
+              class="w-28 h-28 object-contain mb-2"
+              src="./images/Github.png"
+              alt="GitHub Logo"
+            />
+            <p class="text-xl font-bold text-white">Github</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="max-w-7xl mx-auto py-16 px-6">
+      <div class="flex flex-col items-center gap-10">
+        <h2 class="text-5xl font-bold animate-fade-in">
+          My <span class="text-blue-400">Services</span>
+        </h2>
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full animate-from-left"
+        >
+          <div
+            class="bg-gray-800 p-8 rounded-lg shadow-xl flex flex-col items-center text-center transform hover:scale-105 transition duration-300"
+          >
+            <div class="text-5xl mb-4 text-blue-400">&lt;/&gt;</div>
+            <h3 class="text-2xl font-bold mb-3 text-white">Web Development</h3>
+            <p class="text-gray-300 leading-relaxed">
+              As a web developer, I create dynamic and functional websites using
+              a combination of front-end and back-end technologies. I specialize
+              in building responsive, user-friendly interfaces that enhance the
+              user experience. Whether it's an e-commerce site, a blog, or a
+              custom web application, I bring ideas to life through code.
+            </p>
+          </div>
+
+          <div
+            class="bg-gray-800 p-8 rounded-lg shadow-xl flex flex-col items-center text-center transform hover:scale-105 transition duration-300"
+          >
+            <div class="text-5xl mb-4 text-blue-400">&#x1F4BB;</div>
+            <h3 class="text-2xl font-bold mb-3 text-white">UI Development</h3>
+            <p class="text-gray-300 leading-relaxed">
+              UI (User Interface) development focuses on creating the visual
+              elements of a website or application. I specialize in turning
+              design mockups into interactive interfaces using HTML, CSS, and
+              JavaScript. My goal is to ensure that users have a seamless and
+              enjoyable experience while interacting with your product.
+            </p>
+          </div>
+
+          <div
+            class="bg-gray-800 p-8 rounded-lg shadow-xl flex flex-col items-center text-center transform hover:scale-105 transition duration-300"
+          >
+            <div class="text-5xl mb-4 text-blue-400">&lt;/&gt;</div>
+            <h3 class="text-2xl font-bold mb-3 text-white">UI Designing</h3>
+            <p class="text-gray-300 leading-relaxed">
+              UI design is all about aesthetics and usability. As a UI designer,
+              I craft visually appealing layouts, choose color schemes, and
+              create intuitive navigation. I pay attention to details like
+              typography, spacing, and consistency. My designs aim to enhance
+              the overall look and feel of your digital product.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="max-w-7xl mx-auto py-16 px-3">
+      <div class="flex flex-col items-center gap-10">
+        <h2 class="text-5xl font-bold animate-fade-in">
+          My <span class="text-blue-400">Projects</span>
+        </h2>
+        <div
+          class="flex flex-col items-center md:flex-row flex-wrap justify-center gap-8 w-full animate-from-right"
+        >
+          <div
+            class="w-80 h-auto rounded-xl overflow-hidden shadow-lg transform hover:scale-105 transition duration-300 bg-gray-800 p-4"
+          >
+            <img
+              class="w-full h-52 object-cover rounded-md mb-4"
+              src="./images/Online store .PNG"
+              alt="Online Store Project"
+            />
+            <h3 class="text-xl font-semibold text-white mb-2">Online Store</h3>
+            <p class="text-gray-300 text-sm">
+              A responsive e-commerce platform built with modern web
+              technologies, showcasing product listings and a seamless shopping
+              experience.
+            </p>
+            <div class="flex justify-center mt-4">
+              <a
+                href="https://github.com/Rishi-Kumar27/Tailwind-CSS-Project.git"
+                target="_blank"
+                class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-full text-sm transition duration-300"
+                >View Project</a
+              >
+            </div>
+          </div>
+          <div
+            class="w-80 h-auto rounded-xl overflow-hidden shadow-lg transform hover:scale-105 transition duration-300 bg-gray-800 p-4"
+          >
+            <img
+              class="w-full h-52 object-cover rounded-md mb-4"
+              src="./images/Tic-Tac-Toe.png"
+              alt="Tic-Tac-Toe Game Project"
+            />
+            <h3 class="text-xl font-semibold text-white mb-2">
+              Tic-Tac-Toe Game
+            </h3>
+            <p class="text-gray-300 text-sm">
+              A classic Tic-Tac-Toe game implemented using JavaScript, HTML, and
+              CSS, featuring interactive gameplay and a clear user interface.
+            </p>
+            <div class="flex justify-center mt-4">
+              <a
+                href="https://github.com/Rishi-Kumar27/Tic-Tac-Toe.git"
+                target="_blank"
+                class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-full text-sm transition duration-300"
+                >View Project</a
+              >
+            </div>
+          </div>
+          <div
+            class="w-80 h-auto rounded-xl overflow-hidden shadow-lg transform hover:scale-105 transition duration-300 bg-gray-800 p-4"
+          >
+            <img
+              class="w-full h-52 object-cover rounded-md mb-4"
+              src="./images/Rock-Paper-Scissor.webp"
+              alt="Rock-Paper-Scissors Game Project"
+            />
+            <h3 class="text-xl font-semibold text-white mb-2">
+              Rock Paper Scissors
+            </h3>
+            <p class="text-gray-300 text-sm">
+              An interactive Rock-Paper-Scissors game, built to demonstrate core
+              JavaScript logic and user interaction within a simple web
+              interface.
+            </p>
+            <div class="flex justify-center mt-4">
+              <a
+                href="https://github.com/Rishi-Kumar27/Rock-Paper-Scissors-Game.git"
+                target="_blank"
+                class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-full text-sm transition duration-300"
+                >View Project</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="max-w-7xl mx-auto py-16 px-6">
+      <div class="flex flex-col items-center gap-10">
+        <h2 class="text-5xl font-bold animate-fade-in">
+          Contact <span class="text-blue-400">Me</span>
+        </h2>
+        <form
+          class="flex flex-col gap-6 w-full max-w-xl bg-gray-800 p-8 rounded-lg shadow-xl animate-fade-in"
+        >
+          <div class="flex flex-col md:flex-row gap-4">
+            <input
+              type="text"
+              placeholder="* Enter Your Name"
+              class="w-full py-3 px-4 rounded-md bg-[#2d3748] text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              required
+            />
+            <input
+              type="email"
+              placeholder="* Enter Your Email"
+              class="w-full py-3 px-4 rounded-md bg-[#2d3748] text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              required
+            />
+          </div>
+          <textarea
+            placeholder="* Enter Your Message Here"
+            rows="7"
+            class="w-full p-4 rounded-md bg-[#2d3748] text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 resize-none"
+            required
+          ></textarea>
+          <button
+            type="submit"
+            class="text-xl bg-blue-500 hover:bg-blue-700 text-white font-medium px-8 py-3 rounded-md focus:outline-none focus:shadow-outline transition duration-300 self-center"
+          >
+            Send Message
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <footer
+      class="flex flex-col lg:flex-row justify-center lg:justify-between items-center py-6 px-8 bg-[#2d3748] text-white text-center lg:text-left mt-12"
+    >
+      <p class="font-medium mb-2 lg:mb-0">Copyrights &copy; 2025</p>
+      <p class="font-medium mb-2 lg:mb-0">
+        Need a Portfolio Website Like This? Contact
+        <span class="text-amber-300">Rishi Kumar</span>
+      </p>
+      <a href="#home" aria-label="Back to top">
+        <i
+          class="fa-solid fa-arrow-up px-4 py-3 text-xl font-bold bg-blue-400 rounded-full hover:bg-blue-500 transition duration-300"
+        ></i>
+      </a>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
