@@ -1,0 +1,2 @@
+# This file ensures the data directory is included in git
+# The projects.json file will be automatically created here
