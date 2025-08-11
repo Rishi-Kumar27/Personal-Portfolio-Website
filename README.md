@@ -21,6 +21,6 @@ This site showcases my work, skills, and journey as a **Frontend Developer**. It
 
 ## 📸 Demo
 
-👉 [Live Site](https://your-portfolio-url.com)  
+👉 [Live Site](https://portfolio-rishi-kumar.netlify.app/)  
 
 
